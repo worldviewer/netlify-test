@@ -1,6 +1,11 @@
 backend:
-  name: test-repo
-  delay: 0.1
+  name: github
+  repo: worldviewer/netlify-test # Path to your Github repository
+  branch: master # Branch to update (master by default)
+
+# backend:
+#   name: test-repo
+#   delay: 0.1
 
 media_folder: "assets/uploads"
 
